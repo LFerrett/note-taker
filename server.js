@@ -29,5 +29,11 @@ app.post('/api/notes', (req, res) => {
     res.json(NotesDB);
 });
 
+// DELETE
+app.delete('/api/notes/:id', (req, res) => {
+ 
+});
+
+
 // Starts the app
 app.listen(PORT, () => console.log(`App listening on PORT ${PORT}`));

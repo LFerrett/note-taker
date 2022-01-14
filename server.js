@@ -31,7 +31,14 @@ app.post('/api/notes', (req, res) => {
 
 // DELETE
 app.delete('/api/notes/:id', (req, res) => {
- 
+  const id = req.params;
+  const deleted = NotesDB.find(note => note.id === id)
+  if (deleted) {
+    NotesDB = NotesDB.filter(note => note.id !== id);
+    res.status(200).json(deleted);
+} else {
+    res.status(404).json({message: "This note doesn't exist"})
+}
 });
 
 

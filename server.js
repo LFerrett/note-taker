@@ -31,7 +31,7 @@ app.post('/api/notes', (req, res) => {
 
 // DELETE
 app.delete('/api/notes/:id', (req, res) => {
-  const id = req.params;
+  const { id } = req.params;
   const deleted = NotesDB.find(note => note.id === id)
   if (deleted) {
     NotesDB = NotesDB.filter(note => note.id !== id);

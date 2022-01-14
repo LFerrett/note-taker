@@ -16,7 +16,7 @@ This app is a simple note taker built using an Express.js back end, powered by a
 
 The Note Taker app is deployed live on Heroku and can be accessed by clicking https://arcane-escarpment-91966.herokuapp.com/. 
 
-To run the app locally, clone the repository to your local development environment. Run npm install to install all dependencies. To use the application locally, run node server.js in your CLI, and then open http://localhost:3001 in your preferred browser. 
+To run the app locally, clone the repository to your local development environment. Run npm install to install all dependencies. To use the application locally, run node server.js, and open http://localhost:3001 in your preferred browser. 
 
 ## Usage
 

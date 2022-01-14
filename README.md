@@ -2,7 +2,7 @@
 
 ## Description
 
-This app is a simple note taker built using Express.js back end, powered by a database written to a JSON file. Users can write, save, and delete notes to help with every day tasks such as grocery lists or to-do lists.
+This app is a simple note taker built using an Express.js back end, powered by a database written to a JSON file. Users can write, save, and delete notes to help with every day tasks such as grocery lists or to-do lists.
 
 ## Table of Contents
 
@@ -24,7 +24,7 @@ To run the app locally, clone the repository to your local development environme
 
 A video walk through of the final project is below:
 
-[Video Walkthrough](https://drive.google.com/file/d/1tOjaVD8AnUja0MfuByMPa3mZptKy7mVA/view?usp=sharing)
+[Video Walkthrough](https://drive.google.com/file/d/1imVZTchuaKzw4KJzxZCjB07BkeS1BSYQ/view?usp=sharing)
 
 ## Credits
 

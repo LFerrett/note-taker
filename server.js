@@ -29,9 +29,5 @@ app.post('/api/notes', (req, res) => {
     res.json(NotesDB);
 });
 
-app.listen(PORT, () => {
-  console.log(`App listening on PORT: ${PORT}`);
-});
-
 // Starts the app
 app.listen(PORT, () => console.log(`App listening on PORT ${PORT}`));
